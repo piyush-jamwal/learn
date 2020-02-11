@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from '../src/src/js/components/List';
+import Form from '../src/src/js/components/Forms';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           Hello<List/> world
         </p>
-
+        <Form/>
         <a
           className="App-link"
           href="https://reactjs.org"
